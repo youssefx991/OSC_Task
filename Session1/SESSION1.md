@@ -33,3 +33,9 @@
 3. Display the contents of the "file1.txt" file to ensure your changes are saved. ``` cat file1.txt ```
    ![Step 4 nano image](Session1_Step4.png)
   >Nano ![Step 4 image](Session1_Step4_nano.png)
+
+### Step 5. Go Back
+
+1. Return to the "Documents" directory using the appropriate command. A bit strange since we ended in Documents directory in last step but here is a command that "returns" ``` cd .. ```
+   ![Step 5 image](Session_Step5.png)
+
