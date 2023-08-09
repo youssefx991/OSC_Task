@@ -56,4 +56,11 @@
 1. Display the content of the ".hidden_file" you created in Step 3. Note that it is an empty file  ``` cat ../../.hidden_file ```
    ![Step 8 image](Session1_Step8.png)
 
+### 9. Move Files
+
+1. Move the "file2.txt" and "file3.txt" files from the "Documents" directory to your main directory (the one with your first and last names) using the appropriate command. ``` mv ../file2.txt ../file3.txt ../../ ```
+2. Verify that the files are moved successfully. ``` ls ../../ ```
+     ![Step 9 image](Session1_Step9.png)
+
+
 
