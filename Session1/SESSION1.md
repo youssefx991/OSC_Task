@@ -50,3 +50,10 @@
 1. Copy the "Documents" directory (and all its contents) to your main directory (the one with your first and last names) using the appropriate command. Give the copied directory a different name (e.g., "My_Documents"). ``` cp -r ../../Documents/ ../../My_Documents ```
 2. Verify that the copy was successful by listing the contents of your main directory. ``` ls ../../My_Documents/ ```
  ![Step 7 image](Session1_Step7.png)
+
+### Step 8. Show Hidden Content
+
+1. Display the content of the ".hidden_file" you created in Step 3. Note that it is an empty file  ``` cat ../../.hidden_file ```
+   ![Step 8 image](Session1_Step8.png)
+
+
