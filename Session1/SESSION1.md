@@ -37,5 +37,5 @@
 ### Step 5. Go Back
 
 1. Return to the "Documents" directory using the appropriate command. A bit strange since we ended in Documents directory in last step but here is a command that "returns" ``` cd .. ```
-   ![Step 5 image](Session_Step5.png)
+   ![Step 5 image](Session1_Step5.png)
 
