@@ -32,4 +32,4 @@
 2. Save the changes and exit Nano. ``` CTRL+X Y ENTER ```
 3. Display the contents of the "file1.txt" file to ensure your changes are saved. ``` cat file1.txt ```
    ![Step 4 nano image](Session1_Step4.png)
-   ![Step 4 image](Session1_Step4_nano.png)
+  >Nano ![Step 4 image](Session1_Step4_nano.png)
