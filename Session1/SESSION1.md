@@ -39,3 +39,8 @@
 1. Return to the "Documents" directory using the appropriate command. A bit strange since we ended in Documents directory in last step but here is a command that "returns" ``` cd .. ```
    ![Step 5 image](Session1_Step5.png)
 
+### Step 6. Create a Unique Directory
+
+1. Create a new directory named "-" (a hyphen) within the "Documents" directory. ``` mkdir - ```
+2. Change your current working directory to this newly created directory. ``` cd ./-/ ```
+![Step 6 image](Session1_Step6.png)
