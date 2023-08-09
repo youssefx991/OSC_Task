@@ -44,3 +44,9 @@
 1. Create a new directory named "-" (a hyphen) within the "Documents" directory. ``` mkdir - ```
 2. Change your current working directory to this newly created directory. ``` cd ./-/ ```
  ![Step 6 image](Session1_Step6.png)
+
+### Step 7. Copy Directory
+
+1. Copy the "Documents" directory (and all its contents) to your main directory (the one with your first and last names) using the appropriate command. Give the copied directory a different name (e.g., "My_Documents"). ``` cp -r ../../Documents/ ../../My_Documents ```
+2. Verify that the copy was successful by listing the contents of your main directory. ``` ls ../../My_Documents/ ```
+ ![Step 7 image](Session1_Step7.png)
