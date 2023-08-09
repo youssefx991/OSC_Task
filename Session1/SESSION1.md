@@ -47,8 +47,9 @@
 
 ### Step 7. Copy Directory
 
-1. Copy the "Documents" directory (and all its contents) to your main directory (the one with your first and last names) using the appropriate command. Give the copied directory a different name (e.g., "My_Documents"). ``` cp -r ../../Documents/ ../../My_Documents ```
-2. Verify that the copy was successful by listing the contents of your main directory. ``` ls ../../My_Documents/ ```
+1. Copy the "Documents" directory (and all its contents) to your main directory (the one with your first and last names) using the appropriate command. Give the copied directory a different name (e.g., "My_Documents").
+ ``` cp -r ../../Documents/ ../../My_Documents ```
+3. Verify that the copy was successful by listing the contents of your main directory. ``` ls ../../My_Documents/ ```
  ![Step 7 image](Session1_Step7.png)
 
 ### Step 8. Show Hidden Content
@@ -56,11 +57,17 @@
 1. Display the content of the ".hidden_file" you created in Step 3. Note that it is an empty file  ``` cat ../../.hidden_file ```
    ![Step 8 image](Session1_Step8.png)
 
-### 9. Move Files
+### Step 9. Move Files
 
 1. Move the "file2.txt" and "file3.txt" files from the "Documents" directory to your main directory (the one with your first and last names) using the appropriate command. ``` mv ../file2.txt ../file3.txt ../../ ```
 2. Verify that the files are moved successfully. ``` ls ../../ ```
      ![Step 9 image](Session1_Step9.png)
 
 
+### Step 10. Remove Your Directory
 
+1. Go back to your home directory using the appropriate command. ``` cd ~ ```
+2. Remove your main directory (the one with your first and last names) using the appropriate command.
+ ``` rm -r ./OSC_Task/Youssef\ Wagih/ ```
+4. Verify that the main directory is successfully removed. ``` ls ~ ```
+ ![Step 10 image](Session1_Step10.png)
