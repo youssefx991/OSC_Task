@@ -43,4 +43,4 @@
 
 1. Create a new directory named "-" (a hyphen) within the "Documents" directory. ``` mkdir - ```
 2. Change your current working directory to this newly created directory. ``` cd ./-/ ```
-![Step 6 image](Session1_Step6.png)
+ ![Step 6 image](Session1_Step6.png)
