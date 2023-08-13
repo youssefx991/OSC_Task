@@ -16,3 +16,69 @@
 ``` ls ```
 
 ![Level 1 Image](Session2_Level1.png)
+
+
+
+### Level 2. 
+``` ls -al ```
+
+``` cat README.txt ```
+
+``` tar -xf .level-2.tar ```
+
+``` ls -al ```
+
+``` cd .level-2 ```
+
+``` ls ```
+
+![Level 1 Image](Session2_Level2.png)
+
+
+
+
+### Level 3. Step 1 
+``` ls ```
+
+``` cat README.txt ```
+
+``` find . -name "level-3" ```
+
+``` ls -al ```
+
+``` cd gBT5u0vLT5/ ```
+
+``` ls -al ```
+
+![Level 1 Image](Session2_Level3_Step1.png)
+
+
+
+
+### Level 3. Step 2 
+``` ls ```
+
+``` cat README.txt ```
+
+``` cat wFUKyzFeEv ```
+
+``` ls -al ```
+
+``` find . -size 73c ```
+
+``` cd m71ROpRTUJ/ ```
+
+![Level 1 Image](Session2_Level3_Step2.png)
+
+
+
+
+### Level 3. Step 3 
+``` ls -a ```
+
+``` file xVMvVOKNW5 ```
+
+``` cat wFUKyzFeEv ```
+
+
+![Level 1 Image](Session2_Level3_Step3.png)
