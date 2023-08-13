@@ -9,4 +9,4 @@
 ``` ls -al ```
 ``` cd .level-1 ```
 ``` ls ```
-![Level 1 Image](Session2.Level1.png)
+![Level 1 Image](Session2_Level1.png)
