@@ -1,0 +1,46 @@
+Session 1: Introduction to Linux
+
+Task 1 - Submission
+
+Step 1. Create Your Directory
+  mkdir "Youssef Wagih"
+  cd Youssef\ Wagih/
+
+Step 2. Make Another Directory and Create Multiple Files
+  mkdir Documents
+  cd Documents/
+  touch file1.txt file2.txt file3.txt
+  ls
+
+Step 3. Hide a File
+  cd ..
+  touch .hidden_file
+  ls -a
+
+Step 4. Write with Nano
+  nano file1.txt
+  CTRL+X Y ENTER
+  cat file1.txt
+
+Step 5. Go Back
+  cd ..
+
+Step 6. Create a Unique Directory
+  mkdir -
+  cd ./-/
+
+Step 7. Copy Directory
+  cp -r ../../Documents/ ../../My_Documents
+  ls ../../My_Documents/
+
+Step 8. Show Hidden Content
+  cat ../../.hidden_file
+
+Step 9. Move Files
+  mv ../file2.txt ../file3.txt ../../
+  ls ../../
+
+Step 10. Remove Your Directory
+  cd ~
+  rm -r ./OSC_Task/Youssef\ Wagih/
+  ls ~
