@@ -139,3 +139,25 @@
 ![Task 4 Step 2 sleep image](Session3_Task4_Step2_Vim.png)
 
 
+
+
+
+
+
+### 5. Package management
+
+- Install the `neofetch` package.
+- ``` sudo apt install neofetch ``` # Note that output was too long to be in a screenshot so there is a screen after installing neofetch
+
+
+
+- Uninstall the `neofetch` package.
+- ``` sudo apt remove neofetch ```
+
+
+
+
+![Task 5 Step 1 install image](Session3_Task5_Step1_Install.png)
+ 
+![Task 5 Step 2 remove image](Session3_Task5_Step2_Remove.png)
+
