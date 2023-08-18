@@ -44,24 +44,40 @@
 
 
 
-### 2. Change the permissions of a file
+#### 2. Change the permissions of a file
 
- Create a directory named `"permission_practice"` in "osc"'s home directory.
- ``` pwd ```
- ``` mkdir permission_practice ```
-	``` cd permission_practice ```
+- Create a directory named `"permission_practice"` in "osc"'s home directory.
 
- 
- Inside `"permission_practice,"` create the following files ``` touch public_file.txt private_file.txt executable_script.sh ```
-     - `"public_file.txt"` with read and write permissions for everyone. 
-     ``` 	chmod 666 public_file.txt ```
-     
-    - `"private_file.txt"` with read and write permissions only for the owner. 
+``` pwd ```
+``` mkdir permission_practice ```
+
+``` cd permission_practice ```
+
+
+- Inside `"permission_practice,"` create the following files:
+
+``` touch public_file.txt private_file.txt executable_script.sh ```
+``` ls -l ```
+
+.
+    - `"public_file.txt"` with read and write permissions for everyone.
+    
+    ``` chmod 666 public_file.txt ```
+    
+.
+    - `"private_file.txt"` with read and write permissions only for the owner.
+    
     ``` chmod 600 private_file.txt ```
     
-    - `"executable_script.sh"` with read, write, and execute permissions for the owner and read and execute permissions for the 
-   group. 
-   ``` chmod 750 executable_script.sh ```
+.
+    - `"executable_script.sh"` with read, write, and execute permissions for the owner and read and execute permissions for the group.
+    
+    ``` chmod 750 executable_script.sh ```
+    
+    
+    ``` ls -l ```
+    
+    
 
 
 ![Task 2 image](Session3_Task2.png)
