@@ -60,23 +60,23 @@
 ``` ls -l ```
 
 
-    - "public_file.txt" with read and write permissions for everyone.
-    
-    ``` chmod 666 public_file.txt ```
-    
-    
-    - "private_file.txt" with read and write permissions only for the owner.
-    
-    ``` chmod 600 private_file.txt ```
-    
-    
-    - "executable_script.sh" with read, write, and execute permissions for the owner and read and execute permissions for the group.
-    
-    ``` chmod 750 executable_script.sh ```
-    
-    
-    ``` ls -l ```
-    
+   - "public_file.txt" with read and write permissions for everyone.
+   
+   ``` chmod 666 public_file.txt ```
+   
+   
+   - "private_file.txt" with read and write permissions only for the owner.
+   
+   ``` chmod 600 private_file.txt ```
+   
+   s
+   - "executable_script.sh" with read, write, and execute permissions for the owner and read and execute permissions for the group.
+   
+   ``` chmod 750 executable_script.sh ```
+   
+   
+   ``` ls -l ```
+   
     
 
 
