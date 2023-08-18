@@ -3,21 +3,21 @@
 
 ### 1. Create a new user and a group
 
-- Create a new user named `"osc"` with a password.
+ Create a new user named `"osc"` with a password.
 
   ``` sudo useradd -m osc ```
 
   ``` sudo passwd osc ```
   
-- Create a new group named `"osc_group"`.
+ Create a new group named `"osc_group"`.
 
   ``` sudo groupadd osc_group ```
   
-- Add `"osc"` to `"osc_group"`.
+ Add `"osc"` to `"osc_group"`.
 
   ``` sudo usermod -aG osc_group osc ```
   
-- Grant sudo privileges to the user `"osc"`.
+ Grant sudo privileges to the user `"osc"`.
 
   ``` sudo visudo  ```
 
@@ -29,6 +29,6 @@
 
   ENTER
   
-- Switch to `"osc"` user.
+ Switch to `"osc"` user.
 
 ``` su - osc ```
