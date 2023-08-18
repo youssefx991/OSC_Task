@@ -99,6 +99,43 @@
 
 
 
-![Task 2 image](Session3_Task3.png)
+![Task 3 image](Session3_Task3.png)
+
+
+
+
+
+
+### 4. Process management
+
+- Start a new background process that runs `"sleep 1000"`.
+- ``` sleep 1000 & ```
+
+
+- Kill the sleep process using its PID.
+- ``` ps -f ```
+- ``` kill kill 86148 ```
+
+
+
+- Open `vim` and then suspend it using `ctrl+z`.
+- ``` vim ``` then, C+Z
+
+
+
+- Kill the suspended `vim` process using its name.
+- ``` killall -9 vim ```
+
+
+
+- Verify that the `vim` and `sleep` processes are no longer running using the appropriate command.
+- ``` ps -f ```
+
+
+
+
+![Task 4 Step 1 vim image](Session3_Task4_Step1_Sleep.png)
+ 
+![Task 4 Step 2 sleep image](Session3_Task4_Step2_Vim.png)
 
 
