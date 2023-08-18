@@ -53,10 +53,16 @@
 
  
  Inside `"permission_practice,"` create the following files ``` touch public_file.txt private_file.txt executable_script.sh ```
-     - `"public_file.txt"` with read and write permissions for everyone. ``` 	chmod 666 public_file.txt ```
-    - `"private_file.txt"` with read and write permissions only for the owner. ``` chmod 600 private_file.txt ```
+     - `"public_file.txt"` with read and write permissions for everyone. 
+     ``` 	chmod 666 public_file.txt ```
+     
+    - `"private_file.txt"` with read and write permissions only for the owner. 
+    ``` chmod 600 private_file.txt ```
+    
     - `"executable_script.sh"` with read, write, and execute permissions for the owner and read and execute permissions for the 
-   group. ``` chmod 750 executable_script.sh ```
+   group. 
+   ``` chmod 750 executable_script.sh ```
+
 
 ![Task 2 image](Session3_Task2.png)
 
