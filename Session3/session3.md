@@ -69,7 +69,7 @@
    
    ``` chmod 600 private_file.txt ```
    
-   s
+   
    - "executable_script.sh" with read, write, and execute permissions for the owner and read and execute permissions for the group.
    
    ``` chmod 750 executable_script.sh ```
@@ -81,4 +81,24 @@
 
 
 ![Task 2 image](Session3_Task2.png)
+
+
+
+
+
+
+
+### 3. Change the owner of a file
+
+- Change the owner of `"private_file.txt"` to your main user (the one you created when you installed Linux).
+
+- Change the group of `"private_file.txt"` to `"osc_group"`.
+
+
+``` sudo chown magdy:osc_group private_file.txt ```
+
+
+
+![Task 2 image](Session3_Task3.png)
+
 
