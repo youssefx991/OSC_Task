@@ -32,6 +32,10 @@
  Switch to `"osc"` user.
 
  ``` su - osc ```
+
+ 
  ![Task 1 Step 1 image](Session3_Task1_Step1.png)
+ 
  ![Task 1 Step 2 image](Session3_Task1_Step2_Nano.png)
+ 
  ![Task 1 Step 3 image](Session3_Task1_Step3.png)
